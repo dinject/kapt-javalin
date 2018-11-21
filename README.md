@@ -12,7 +12,6 @@ Maven tile for Kotlin compile, kapt annotation processors for DI and Javlin cont
         <groupId>io.repaint.maven</groupId>
         <artifactId>tiles-maven-plugin</artifactId>
         <version>2.12</version>
-        <extensions>true</extensions>
         <configuration>
           <tiles>
             <tile>io.dinject.kapt:javlin:0.1-SNAPSHOT</tile>
