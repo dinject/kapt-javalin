@@ -71,13 +71,13 @@ Maven tile for Kotlin compile, kapt annotation processors for DI and Javlin cont
                   <!-- DInject DI -->
                   <groupId>io.dinject</groupId>
                   <artifactId>dinject-generator</artifactId>
-                  <version>0.8</version>
+                  <version>0.10</version>
                 </annotationProcessorPath>
                 <annotationProcessorPath>
                   <!-- Generate web route adapters for Javlin Controllers -->
                   <groupId>io.dinject</groupId>
-                  <artifactId>javlin-generator</artifactId>
-                  <version>0.3</version>
+                  <artifactId>javalin-generator</artifactId>
+                  <version>0.4</version>
                 </annotationProcessorPath>
               </annotationProcessorPaths>
             </configuration>

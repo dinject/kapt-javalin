@@ -2,10 +2,10 @@
 <project>
 
   <properties>
-    <java.version>1.8</java.version>
+    <!--<java.version>1.8</java.version>-->
     <kotlin.version>1.2.71</kotlin.version>
-    <kotlin.apiVersion>1.2</kotlin.apiVersion>
-    <kotlin.jvmTarget>1.8</kotlin.jvmTarget>
+    <!--<kotlin.apiVersion>1.2</kotlin.apiVersion>-->
+    <!--<kotlin.jvmTarget>1.8</kotlin.jvmTarget>-->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -20,8 +20,8 @@
         <artifactId>kotlin-maven-plugin</artifactId>
         <version>${kotlin.version}</version>
         <configuration>
-          <apiVersion>${kotlin.apiVersion}</apiVersion>
-          <jvmTarget>${kotlin.jvmTarget}</jvmTarget>
+          <apiVersion>1.2</apiVersion>
+          <jvmTarget>1.8</jvmTarget>
         </configuration>
 
         <executions>
@@ -40,13 +40,13 @@
                   <!-- DInject DI -->
                   <groupId>io.dinject</groupId>
                   <artifactId>dinject-generator</artifactId>
-                  <version>0.10-SNAPSHOT</version>
+                  <version>0.10</version>
                 </annotationProcessorPath>
                 <annotationProcessorPath>
                   <!-- Generate web route adapters for Javlin Controllers -->
                   <groupId>io.dinject</groupId>
                   <artifactId>javalin-generator</artifactId>
-                  <version>0.4-SNAPSHOT</version>
+                  <version>0.4</version>
                 </annotationProcessorPath>
               </annotationProcessorPaths>
             </configuration>
@@ -76,8 +76,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.0</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
         <executions>
           <!-- Replacing default-compile as it is treated specially by maven -->
