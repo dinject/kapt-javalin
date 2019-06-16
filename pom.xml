@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.dinject.tile</groupId>
-  <artifactId>kapt-javalin</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <groupId>io.dinject.kapt</groupId>
+  <artifactId>javalin</artifactId>
+  <version>1.6-SNAPSHOT</version>
   <packaging>tile</packaging>
 
   <parent>
@@ -14,7 +14,7 @@
   </parent>
 
   <scm>
-    <developerConnection>scm:git:git@github.com:dinject/kapt-javlin.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:dinject/kapt-javalin.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
